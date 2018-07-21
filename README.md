@@ -6,7 +6,7 @@ Community https://visualstudio.microsoft.com/pt-br/downloads/?rr=https%3A%2F%2Fw
 .NetCore Version: 2.0.9  
 https://github.com/dotnet/core/blob/master/release-notes/download-archives/2.0.9-download.md
 
-Npm: 6.0.2  
+Npm:
 https://nodejs.org/en/download/current/
 
 Npm Version Control on Windows:  
