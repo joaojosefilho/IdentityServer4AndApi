@@ -1,12 +1,12 @@
 ## Create the development environment
 
-IDE: Visual Studio 2017  
-Community https://visualstudio.microsoft.com/pt-br/downloads/?rr=https%3A%2F%2Fwww.google.com.br%2F
+Visual Studio 2017 Community  
+https://visualstudio.microsoft.com/pt-br/downloads/?rr=https%3A%2F%2Fwww.google.com.br%2F
 
 .NetCore Version: 2.0.9  
 https://github.com/dotnet/core/blob/master/release-notes/download-archives/2.0.9-download.md
 
-Npm:
+Npm:  
 https://nodejs.org/en/download/current/
 
 Npm Version Control on Windows:  
