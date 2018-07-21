@@ -6,14 +6,6 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-//IDP
-//My: https://localhost:44321/
-//Curse: https://localhost:44379/
-
-//API
-//My: https://localhost:44390/
-//Curse: https://localhost:44351/
-
 namespace IdentityServer4.IDP
 {
     public static class Config
@@ -105,8 +97,7 @@ namespace IdentityServer4.IDP
                     },
                     AllowedCorsOrigins = {
                         "http://localhost:8080"
-                    },
-                    //EnableLocalLogin=true,
+                    },                    
                     AllowedScopes =
                     {
                         IdentityServerConstants.StandardScopes.OpenId,
@@ -121,7 +112,7 @@ namespace IdentityServer4.IDP
                     {
                         new Secret("secret".Sha256())
                     },
-                    //AlwaysIncludeUserClaimsInIdToken=true
+                    
                 }                
             };
         }

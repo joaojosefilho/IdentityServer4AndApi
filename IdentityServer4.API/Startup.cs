@@ -36,8 +36,7 @@ namespace IdentityServer4.API
                 {
                     options.Authority = "https://localhost:44321/";
                     options.ApiName = "identityserver4api";
-                    options.ApiSecret = "apisecret";
-                    options.RequireHttpsMetadata = false;
+                    options.ApiSecret = "apisecret";                    
                 });
 
             services.AddCors(options =>
